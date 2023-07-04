@@ -63,6 +63,7 @@ def nuevo_usuario():
                 else:
                     print("El PIN de confirmación no coincide. Por favor, ingrese nuevamente el PIN.")
 #Falta integrar la verificación se usuarios almacenados de la parte del registro de nuevo usuario.(*Listas)
-#Faltaa desarrollar sección de "Depósito Mínimo". (*Base de datos con tipos de cambio, biblioteca os, estructuras del sistema de archivos).
+#Falta desarrollar el ciclo que regresa al menú de inicio.
+#Falta desarrollar sección de "Depósito Mínimo". (*Base de datos con tipos de cambio, biblioteca os, estructuras del sistema de archivos).
 
 mostrar_menu()
