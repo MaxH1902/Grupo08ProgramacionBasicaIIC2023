@@ -1,2 +1,0 @@
-Usuario1 ID 148,Nombre1 Felipe,PIN 189
-Usuario2 ID 680,Nombre2 Amanda,PIN 289
