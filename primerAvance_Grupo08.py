@@ -1,5 +1,5 @@
   #Se requiere desarrollar la arquitectura y diseño de un software para el manejo de un casino online, que sea accesible y cuente con medidas de seguridad para proteger el dinero de los usuarios, una plataforma de registro de usuarios, juegos en línea y acceso para configuración del sistema.
-#Autor: Max Hernández Medrano
+#Autor: Max Hernández Medrano, colaboracion de jose david Jiménez Corrales.
 #05/06/2023
 
 #Importamos la biblioteca getpass para la verificación de PIN.
