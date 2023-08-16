@@ -105,7 +105,7 @@ def dreamWorldCasino():
         print("Se excedió el máximo de intentos para ingresar su ID o PIN, volviendo al menú principal")
         mostrarMenu()
         return
-    # Mostramos el mensaje de bienvenida y el submenú.
+    # Mostramos el mensaje de bienvenida y el submenú para el módulo.
     print("Bienvenido, {}.".format(idUsuario))
     while True:
         print("1. Retirar dinero")
