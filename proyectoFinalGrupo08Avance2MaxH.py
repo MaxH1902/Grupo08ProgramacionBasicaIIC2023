@@ -78,7 +78,7 @@ def realizarDeposito(saldo, moneda, montoMinimo):
         
         if monedaElegida == "1":
             monedaNombre = "Dolares"
-            tipoCambio = 1.0  # Valor predeterminado para Dolares
+            tipoCambio = 1.0
         elif monedaElegida == "2":
             monedaNombre = "Colones"
             tipoCambio = tiposDeCambio["Colones"]
@@ -90,7 +90,7 @@ def realizarDeposito(saldo, moneda, montoMinimo):
             tipoCambio = tiposDeCambio["Euro"]
         else:
             print("Opción inválida.")
-            continue  # Volver a solicitar la monedaElegida
+            continue 
         
         monto = float(input("Ingrese el monto que desea depositar: "))
         
@@ -128,13 +128,13 @@ def cargarUsuarios():
         return []
 
 def autenticarUsuario():
-    global usuariosRegistrados  # Acceder a la variable global
+    global usuariosRegistrados
     maxIntentos = 3
     while maxIntentos > 0:
         inputId = input("Ingrese su ID: ")
         inputPin = getpass.getpass("Ingrese su PIN: ")
 
-        for usuario in usuariosRegistrados:  # Cambiar usuarios por usuariosRegistrados
+        for usuario in usuariosRegistrados:
             if usuario[0] == inputId and usuario[1] == inputPin:
                 return usuario[0]
 
@@ -160,7 +160,6 @@ def dreamWorldCasino():
         return
 
     print("Bienvenido, {}. ¿Qué querés hacer?".format(idUsuario))
-    saldo = saldoTemporal
 
     while True:
         print("1. Retirar dinero")
