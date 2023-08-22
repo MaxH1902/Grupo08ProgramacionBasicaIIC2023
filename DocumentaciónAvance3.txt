@@ -1,0 +1,19 @@
+Documentación:
+
+global: https://www.w3schools.com/python/python_variables_global.asp 
+
+append: https://www.w3schools.com/python/ref_list_append.asp 
+
+Manejo de Errores: https://docs.python.org/3/tutorial/errors.html 
+
+Diccionarios: https://www.w3schools.com/python/python_dictionaries.asp 
+
+Strip: https://www.w3schools.com/python/ref_string_strip.asp 
+
+Split: https://www.w3schools.com/python/ref_string_split.asp 
+
+Return: https://www.w3schools.com/python/ref_keyword_return.asp 
+
+Slicing: https://www.w3schools.com/python/python_strings_slicing.asp
+
+Pop: https://www.w3schools.com/python/ref_list_pop.asp 
